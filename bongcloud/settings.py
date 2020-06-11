@@ -75,7 +75,6 @@ WSGI_APPLICATION = 'bongcloud.wsgi.application'
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
 load_envbash(os.path.join(os.getenv('HOME'), '.bongcloud'))
-print(os.environ)
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
