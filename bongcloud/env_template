@@ -1,0 +1,5 @@
+#copy the contents of this file into $HOME/.bongcloud and fill in variables
+
+export DB_NAME=<FILL_ME_IN>
+export DB_USER=<FILL_ME_IN>
+export DB_PASSWORD=<FILL_ME_IN>
